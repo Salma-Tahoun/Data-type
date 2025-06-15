@@ -1,0 +1,13 @@
+#include <bits/stdc++.h>
+using namespace std;
+#include <iostream>
+#include<iomanip>
+int main() {
+    double R;
+    cin>>R;
+    const double PI = 3.141592653;
+    double Area = PI*R*R;
+    cout <<fixed<< setprecision(9) <<Area;
+
+    
+}
