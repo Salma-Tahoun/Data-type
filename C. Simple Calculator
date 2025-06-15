@@ -1,0 +1,13 @@
+#include <bits/stdc++.h>
+using namespace std;
+int main() {
+long long x;
+x>=1;
+long long  y;
+y<=10^5;
+cin>>x>>y;
+cout<<x<<" + "<<y<<" = "<<x+y<<endl;  
+cout<<x<<" * "<<y<<" = "<<x*y<<endl;  
+cout<<x<<" - "<<y<<" = "<<x-y<<endl;  
+
+}
