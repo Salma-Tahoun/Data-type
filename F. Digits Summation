@@ -1,0 +1,14 @@
+#include <bits/stdc++.h>
+#include <iostream>
+using namespace std;
+int main (){
+    long long N , M ,lastdigitN , lastdigitM , sum ;
+    cin >> N >> M  ; 
+    lastdigitN =N%10;
+    lastdigitM =M%10; 
+    sum = lastdigitN + lastdigitM   ;
+    cout << sum;
+    
+    
+  
+}
