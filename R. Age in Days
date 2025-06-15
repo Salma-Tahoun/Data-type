@@ -1,0 +1,13 @@
+#include <bits/stdc++.h>
+#include <iostream>
+using namespace std;
+int main() {
+    int X , day , month , year;
+    cin >> X ;
+    year = X / 365;
+    month = (X % 365) / 30;
+    day = (X % 365) - (month * 30);
+    cout <<year<<" "<<"years"<<endl;
+    cout <<month<<" "<<"months"<<endl;
+    cout <<day<<" "<<"days"<<endl;
+}
