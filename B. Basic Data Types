@@ -1,0 +1,12 @@
+#include <bits/stdc++.h>
+using namespace std;
+int main() {
+int num1;
+long long num2;
+char a;
+float num3;
+double num4;
+
+cin>>num1>>num2>>a>>num3>>num4;
+cout<<num1<<endl<<num2<<endl<<a<<endl<<num3<<endl<<num4;
+}
