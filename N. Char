@@ -1,0 +1,17 @@
+#include <bits/stdc++.h>
+#include <iostream>
+#include <cctype>
+using namespace std;
+int main (){
+   char X ;
+   cin >>X ; 
+   if (X>='a'&&X<='z'){
+     char upper = toupper(X);
+       cout <<upper;
+}
+   if (X>='A'&&X<='Z'){
+    char lower = tolower(X);
+    cout <<lower;
+       
+   }
+}
