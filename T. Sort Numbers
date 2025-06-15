@@ -1,0 +1,45 @@
+#include <bits/stdc++.h>
+#include <iostream>
+using namespace std;
+int main() {
+    int X , Y , Z , mini , def , max  ;
+    cin >> X >> Y >> Z;
+    
+    if (X>=Y && X>=Z){
+        max= X ;
+        if(Y>=Z){
+            def=Y;
+            mini=Z;
+        }
+        else {
+            def=Z;
+            mini = Y;
+        }
+    }
+    
+    else if (Y>=X && Y>=Z){
+            max= Y ;
+                    if(X>=Z){
+            def=X;
+            mini=Z;
+        }
+        else {
+            def=Z;
+            mini = X;
+        }
+ 
+        }
+    else if (Z>=X && Z>=Y){
+            max= Z ; 
+                    if(X>=Y){
+            def=X;
+            mini=Y;
+        }
+        else {
+            def=Y;
+            mini = X;
+        }
+}
+        cout <<mini<<endl<<def<<endl<<max<<endl<<endl;
+        cout <<X<<endl<<Y<<endl<<Z<<endl;
+}
