@@ -1,0 +1,30 @@
+#include <bits/stdc++.h>
+#include <iostream>
+using namespace std;
+int main (){
+   int A , B , sum , sup , div , multi;    
+   char S ;
+   cin >>A>>S>>B;
+   sum = A+B;
+   sup= A-B;
+   div = A/B;
+   multi= A*B;
+   if (S=='+'){
+       cout <<sum;
+   }
+   
+   else if (S=='-'){
+       cout <<sup;
+   }
+   
+    else if (S=='/'){
+       cout <<div;
+   }
+   
+  else  if (S=='*'){
+       cout << multi;
+   }
+    
+    
+    
+}
